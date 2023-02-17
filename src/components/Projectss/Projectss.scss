@@ -1,0 +1,74 @@
+.ProjectCard {
+  margin-left: 55px;
+  margin-top: 20px;
+  height: 403px;
+  width: 317px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  .ProName {
+    width: 98px;
+    margin-top: 15px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+  }
+  .ClName {
+    margin-left: 10px;
+    margin-top: 10px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+  .LocAd {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    .PuneLocation {
+      height: 13.415164947509766px;
+      width: 11.33382511138916px;
+      left: 12.3330078125px;
+      top: 269.29541015625px;
+      border-radius: 0px;
+    }
+    .Lc {
+      width: 102px;
+      height: 17px;
+
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 18px;
+
+      color: #000000;
+    }
+  }
+  .Cnts {
+    text-align: start;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 14px;
+
+    color: #000000;
+  }
+}

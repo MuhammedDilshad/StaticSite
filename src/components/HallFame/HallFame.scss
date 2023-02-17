@@ -1,0 +1,21 @@
+.HallTitle {
+  position: relative;
+  text-align: start;
+  margin-left: 55px;
+  margin-top: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.HallFrame {
+  display: flex;
+  gap: 100px;
+}
+.Dots {
+  margin-top: 25px;
+}

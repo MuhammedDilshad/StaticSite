@@ -1,0 +1,90 @@
+.BusinessCards {
+  position: relative;
+  display: grid;
+  width: 585.5px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+
+  height: 353px;
+  margin-left: 55px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  .Topline {
+    display: flex;
+    .TlineIcon {
+      padding-top: 19px;
+      padding-left: 14px;
+    }
+    .TlineHeading {
+      padding-top: 25px;
+      padding-left: 17px;
+      // position: absolute;
+      width: auto;
+      height: 16px;
+      // left: 47px;
+      // top: 25px;
+
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase;
+    }
+  }
+  .GdLine {
+    padding-top: 10px;
+  }
+  .Midline {
+    display: flex;
+    .ProImage {
+      padding-left: 10px;
+      padding-top: 17px;
+    }
+    .IconsOf {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      .Ponts {
+        display: flex;
+        padding-left: 10px;
+        padding-top: 23px;
+        .OptionIcon {
+          width: 10.75px;
+          height: 10.5px;
+        }
+        .Optionss {
+          padding-left: 10px;
+
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 14px;
+          display: flex;
+          align-items: start;
+
+          color: black;
+        }
+      }
+    }
+  }
+  .Content {
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: start;
+
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+
+    color: black;
+  }
+}

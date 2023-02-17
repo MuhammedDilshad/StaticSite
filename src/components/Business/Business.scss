@@ -1,0 +1,19 @@
+.Title {
+  position: relative;
+  text-align: start;
+  margin-left: 55px;
+  margin-top: 55px;
+  margin-bottom: 10px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000000;
+}
+.BCard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(451px, 2fr));
+}

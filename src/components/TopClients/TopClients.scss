@@ -1,0 +1,20 @@
+.TopHead {
+  text-align: start;
+  margin-left: 55px;
+  margin-top: 25px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  //   text-transform: uppercase;
+
+  color: #000000;
+}
+.TopCmp {
+  margin-left: 55px;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(271px, 2fr));
+}

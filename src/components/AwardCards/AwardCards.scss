@@ -1,0 +1,84 @@
+.AwdCrd {
+  margin-left: 55px;
+  margin-top: 40px;
+  width: 481px;
+  height: 410px;
+  left: 27px;
+  top: 2740px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  .Ad {
+    box-sizing: border-box;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 25px;
+    box-sizing: border-box;
+
+    // position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 94px;
+    top: 16px;
+
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .AwdName {
+    text-align: center;
+    margin-top: 15px;
+    height: 18px;
+    top: 327px;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .DataWay {
+    display: flex;
+    .Fic {
+      display: flex;
+      gap: 10px;
+      margin-top: 20px;
+    }
+    .Fico {
+      margin-top: 20px;
+
+      margin-left: 140px;
+      padding-left: 5px;
+      .One {
+        padding-left: 5px;
+      }
+      .TIc {
+        left: 71.88%;
+        right: -9.38%;
+        top: 84.38%;
+        bottom: -53.12%;
+
+        border: 1px solid #000000;
+        // transform: rotate(-180deg);
+      }
+    }
+    .Ficoi {
+      margin-top: 20px;
+
+      display: flex;
+      gap: 10px;
+      margin-left: 145px;
+      .TIc {
+        left: 71.88%;
+        right: -9.38%;
+        top: 84.38%;
+        bottom: -53.12%;
+
+        border: 1px solid #000000;
+        // transform: rotate(-180deg);
+      }
+    }
+  }
+}
