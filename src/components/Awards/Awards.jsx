@@ -5,7 +5,7 @@ import { Awds } from "../../Assist/Assist";
 
 function Awards() {
   return (
-    <div>
+    <div className="Award">
       <div className="AwdTitle">
         <div>AWARDS</div>
         <div>CERTIFICATIONS</div>

@@ -1,63 +1,75 @@
+$primary-color: #333;
+$secondary-color: #999;
+$font-size-large: 24px;
+$font-size-medium: 18px;
+$font-size-small: 14px;
+$spacing-large: 20px;
+$spacing-medium: 10px;
+
 .ProjectCard {
-  margin-left: 55px;
-  margin-top: 20px;
-  height: 403px;
-  width: 317px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: $spacing-large;
+  padding: $spacing-large;
 
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
-  .ProName {
-    width: 98px;
-    margin-top: 15px;
-
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-
-    color: #000000;
+  @media only screen and (min-width: 768px) {
+    flex-direction: column;
   }
-  .ClName {
-    margin-left: 10px;
-    margin-top: 10px;
-
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 15px;
-
+  .PcImg {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: $spacing-large;
 
-    color: #000000;
-  }
-  .LocAd {
-    display: flex;
-    margin-top: 10px;
-    margin-left: 10px;
-    .PuneLocation {
-      height: 13.415164947509766px;
-      width: 11.33382511138916px;
-      left: 12.3330078125px;
-      top: 269.29541015625px;
-      border-radius: 0px;
-    }
-    .Lc {
-      width: 102px;
-      height: 17px;
-
-      font-family: "Poppins";
-      font-style: normal;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 18px;
-
-      color: #000000;
+    img {
+      max-width: 100%;
+      max-height: 100%;
     }
   }
+  .PcDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .a {
+      margin-bottom: $spacing-large;
+      .ProName {
+        font-size: $font-size-large;
+        font-weight: bold;
+        margin-bottom: $spacing-medium;
+      }
+      .ClName {
+        font-size: $font-size-medium;
+        font-weight: bold;
+        margin-bottom: $spacing-medium;
+        color: $secondary-color;
+      }
+      .LocAd {
+        display: flex;
+        align-items: center;
+        margin-bottom: $spacing-medium;
+
+        .Lc {
+          font-size: $font-size-small;
+          margin-left: $spacing-medium;
+          color: $secondary-color;
+        }
+      }
+      .b {
+        margin-top: $spacing-large;
+
+        @media only screen and (min-width: 768px) {
+          margin-top: 0;
+          margin-left: $spacing-large;
+        }
+      }
+    }
+  }
+
   .Cnts {
     text-align: start;
     padding-left: 10px;

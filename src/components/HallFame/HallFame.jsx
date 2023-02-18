@@ -6,11 +6,15 @@ import { Project } from "../../Assist/Assist";
 function HallFame() {
   return (
     <div>
-      <div className="HallTitle">HALL OF FAME</div>
-      <div className="HallFrame">
-        {Project.map((value) => (
-          <Projectss value={value} />
-        ))}
+      <div>
+        <div className="HallTitle">HALL OF FAME</div>
+      </div>
+      <div className="HallContains">
+        <div className="HallFrame">
+          {Project.map((value) => (
+            <Projectss value={value} />
+          ))}
+        </div>
       </div>
       <div className="Dots">
         <img src="/images/Ellipse 1382.png" alt="" />

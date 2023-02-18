@@ -1,32 +1,29 @@
+$spacing-large: 70px;
+
 .AwdCrd {
-  margin-left: 55px;
-  margin-top: 40px;
-  width: 481px;
-  height: 410px;
-  left: 27px;
-  top: 2740px;
+  margin: $spacing-large;
+  padding: $spacing-large;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
   .Ad {
     box-sizing: border-box;
 
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    margin-left: 90px;
-    margin-top: 25px;
-    box-sizing: border-box;
-
-    // position: absolute;
-    width: 300px;
-    height: 300px;
-    left: 94px;
-    top: 16px;
 
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
   }
   .AwdName {
     text-align: center;
@@ -41,44 +38,24 @@
   }
   .DataWay {
     display: flex;
+    justify-content: space-between;
+    align-items: end;
+
     .Fic {
       display: flex;
-      gap: 10px;
-      margin-top: 20px;
+      justify-content: space-between;
     }
     .Fico {
-      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
 
-      margin-left: 140px;
-      padding-left: 5px;
       .One {
         padding-left: 5px;
       }
-      .TIc {
-        left: 71.88%;
-        right: -9.38%;
-        top: 84.38%;
-        bottom: -53.12%;
-
-        border: 1px solid #000000;
-        // transform: rotate(-180deg);
-      }
     }
     .Ficoi {
-      margin-top: 20px;
-
       display: flex;
-      gap: 10px;
-      margin-left: 145px;
-      .TIc {
-        left: 71.88%;
-        right: -9.38%;
-        top: 84.38%;
-        bottom: -53.12%;
-
-        border: 1px solid #000000;
-        // transform: rotate(-180deg);
-      }
+      justify-content: space-between;
     }
   }
 }

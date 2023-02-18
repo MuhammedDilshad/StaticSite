@@ -1,24 +1,39 @@
-.AwdTitle {
-  //   position: absolute;
-  margin-top: 30px;
+.Award {
   display: flex;
-  gap: 450px;
-  margin-left: 55px;
-  width: 66px;
-  height: 18px;
-  left: 30px;
-  //   top: 2692px;
+  flex-direction: column;
+  justify-content: space-between;
 
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 18px;
-  /* identical to box height, or 112% */
+  .AwdTitle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 1rem;
 
-  color: #000000;
-}
-.LastBx {
-  display: flex;
-  gap: 190px;
+    div {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+
+    div:last-child {
+      margin-left: 1rem;
+    }
+  }
+
+  .LastBx {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    .AwardCards {
+      @media screen and (min-width: 768px) {
+        width: 50%;
+        margin: 1rem 0.5rem;
+      }
+
+      @media screen and (min-width: 1200px) {
+        width: 33.33%;
+        margin: 1rem;
+      }
+    }
+  }
 }
